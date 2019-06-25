@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IODemo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:text="Write to External Storage (/mnt/sdcard)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:text="Read From External Storage (/mnt/sdcard)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go2"/>
+
+    <Button
+        android:id="@+id/bt3"
+        android:text="Write to Internal Memory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go3"/>
+
+    <Button
+        android:id="@+id/bt4"
+        android:text="Read from Internal Memory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go4"/>
+
+    <Button
+        android:id="@+id/bt5"
+        android:text="Write to Shared Preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go5"/>
+
+    <Button
+        android:id="@+id/bt6"
+        android:text="Read from Shared Preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go6"/>
+
+
+</LinearLayout>

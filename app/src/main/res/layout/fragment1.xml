@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag1"
+    android:orientation="vertical"
+    android:background="#E4D128" >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv111"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Fragment 1" />
+
+    <Button
+        android:text="This is Button 1"
+        android:id="@+id/bt111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>

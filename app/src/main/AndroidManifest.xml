@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstapp">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+        <activity android:name=".LocationDemo" />
+        <activity android:name=".FirebaseStorageDemo2" />
+        <activity android:name=".FirbaseStorageDemo1" />
+        <activity android:name=".FirebaseDatabaseActivity5" />
+        <activity android:name=".FirebaeDatabaseDemoActivity4" />
+        <activity android:name=".FirebaseDatabaseDemoActivity3" />
+        <activity android:name=".FirebaseDatabaseDemoActivity2" />
+        <activity android:name=".FirebaseDatabaseDemoActivity" />
+        <activity android:name=".RecyclerViewWithVolley" />
+        <activity android:name=".RecyclerViewWithCardView" />
+        <activity android:name=".VolleyDemo3" />
+        <activity android:name=".VolleyDemo2" />
+        <activity android:name=".VolleyDemo1" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".BRDemo1" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".DrawerDemoActivity"
+            android:label="@string/title_activity_drawer_demo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TwentyFive"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".TwentyFourActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity android:name=".TwentyThreeActivity" />
+        <activity android:name=".TwentyTwoActivity" />
+        <activity android:name=".TwentyOneActivity" />
+        <activity android:name=".TwentyActivity" />
+        <activity android:name=".RuntimePermissionsDemo" />
+        <activity android:name=".NotificationsDemoActivity" />
+        <activity android:name=".AutoCompleteDemo" />
+        <activity android:name=".SpinnerDemoActivity" />
+        <activity android:name=".GridViewDemo1" />
+        <activity android:name=".CustomListView1" />
+        <activity android:name=".PicassoDemo" />
+        <activity android:name=".SimpleListView2" />
+        <activity android:name=".SimpleListView1" />
+        <activity
+            android:name=".TenActivity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".LifeCycleDemo"
+            android:screenOrientation="portrait" />
+        <activity android:name=".IODemo" />
+        <activity android:name=".UsingThreadActivity" />
+        <activity android:name=".SomeComponentsActivity" />
+        <activity android:name=".DialogsDemoActivity" />
+        <activity android:name=".CameraAndGalleryActivity" />
+        <activity android:name=".SevenActivity" />
+        <activity android:name=".SixActivity" />
+        <activity android:name=".FiveActivity" />
+        <activity android:name=".FourActivity" />
+        <activity android:name=".ThreeActivity" />
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

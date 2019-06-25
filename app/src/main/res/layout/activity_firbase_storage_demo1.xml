@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirbaseStorageDemo1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textSize="18sp"
+        android:text="This is TextView 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Fetch MetaData"
+        android:id="@+id/bt1"
+        android:onClick="go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Fetch Download URL"
+        android:id="@+id/bt2"
+        android:onClick="go2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imv1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>

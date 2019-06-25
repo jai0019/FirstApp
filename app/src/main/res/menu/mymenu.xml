@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/m1" android:title="one" android:icon="@drawable/myicon1" app:showAsAction="ifRoom" />
+    <item android:id="@+id/m2" android:title="two" android:icon="@drawable/myicon2" app:showAsAction="ifRoom" />
+    <item android:id="@+id/m3" android:title="three" android:icon="@drawable/myicon3" app:showAsAction="ifRoom" />
+    <item android:id="@+id/m4" android:title="four" />
+    <item android:id="@+id/m5" android:title="five" />
+    <item android:id="@+id/m6" android:title="six" />
+</menu>

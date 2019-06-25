@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textSize="18sp"
+         />
+
+    <Button
+        android:id="@+id/bt1"
+        android:text="This is Button 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go"  />
+
+    <ImageView
+        android:id="@+id/imv1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginHorizontal="10dp"
+        android:src="@drawable/one" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:text="This is Button 2"
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go"/>
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go3"
+        android:text="This is Button 3" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="This is Textview 2"
+        android:id="@+id/tv2"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Calculate Sum"
+        android:id="@+id/bt4"
+        android:onClick="go4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt5"
+        android:text="Launch Two Activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go5"/>
+
+
+    <Button
+        android:id="@+id/bt6"
+        android:text="Three Activity with extras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go6"/>
+
+    <Button
+        android:id="@+id/bt7"
+        android:text="FourActivity with Bundle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go7"/>
+
+    <Button
+        android:id="@+id/bt8"
+        android:text="Five Activity(with Uri)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go8"/>
+
+    <Button
+        android:id="@+id/bt9"
+        android:text="Common Intents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go9"/>
+
+    <TextView
+        android:textSize="24sp"
+        android:text="This is tv 10"
+        android:id="@+id/tv10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/bt10"
+        android:text="Activity For Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go10"/>
+
+    <Button
+        android:id="@+id/bt11"
+        android:text="Camera and Gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go11"/>
+
+    <Button
+        android:id="@+id/bt12"
+        android:text="Dialogs Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go12"/>
+
+    <Button
+        android:id="@+id/bt13"
+        android:text="Some Components"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go13"
+        />
+
+    <Button
+        android:id="@+id/bt14"
+        android:text="Using Threads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go14"
+        />
+
+    <Button
+        android:id="@+id/bt15"
+        android:text="Input Output Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go15"
+        />
+
+    <Button
+        android:id="@+id/bt16"
+        android:text="Life Cycle Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go16"
+        />
+
+
+    <Button
+        android:id="@+id/bt17"
+        android:text="Simple List View 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go17"
+        />
+
+    <Button
+        android:id="@+id/bt18"
+        android:text="Simple List View 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go18"
+        />
+
+    <Button
+        android:id="@+id/bt19"
+        android:text="Picasso Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go19"
+        />
+
+
+    <Button
+        android:id="@+id/bt20"
+        android:text="Custom List Demo 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go20"
+        />
+
+    <Button
+        android:id="@+id/bt21"
+        android:text="Grid View Demo 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go21"
+        />
+
+    <Button
+        android:id="@+id/bt22"
+        android:text="Spinner Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go22"
+        />
+
+    <Button
+        android:id="@+id/bt23"
+        android:text="Auto Complete Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go23"
+        />
+
+    <Button
+        android:id="@+id/bt24"
+        android:text="Notifications Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go24"
+        />
+
+    <Button
+        android:id="@+id/bt25"
+        android:text="Runtime Permissions Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go25"
+        />
+
+    <Button
+        android:id="@+id/bt26"
+        android:text="Fragments Demo (static) "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go26"
+        />
+
+    <Button
+        android:id="@+id/bt27"
+        android:text="Fragments Demo (dynamic) "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go27"
+        />
+
+    <Button
+        android:id="@+id/bt28"
+        android:text="View Pager Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go28"
+        />
+
+
+    <Button
+        android:id="@+id/bt29"
+        android:text="Action Bar Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go29"
+        />
+
+
+    <Button
+        android:id="@+id/bt30"
+        android:text="ToolBar Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go30"
+        />
+
+    <Button
+        android:id="@+id/bt31"
+        android:text="TabLayout With ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go31"
+        />
+
+    <Button
+        android:id="@+id/bt32"
+        android:text="DrawerLayout Example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go32"
+        />
+
+    <Button
+        android:id="@+id/bt33"
+        android:text="Start Service (Foreground)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go33"
+        />
+
+    <Button
+        android:id="@+id/bt34"
+        android:text="Stop Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go34"
+        />
+
+    <Button
+        android:id="@+id/bt35"
+        android:text="Local Broadcast Receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go35"
+        />
+
+    <Button
+        android:id="@+id/bt36"
+        android:text="Volley Demo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go36"
+        />
+
+    <Button
+        android:id="@+id/bt37"
+        android:text="Volley and GSON Demo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go37"
+        />
+
+    <Button
+        android:id="@+id/bt38"
+        android:text="Volley and GSON Demo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go38"
+        />
+
+    <Button
+        android:id="@+id/bt39"
+        android:text="Recycler View 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go39"
+        />
+
+    <Button
+        android:id="@+id/bt40"
+        android:text="Recycler View With Volley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go40"
+        />
+
+    <Button
+        android:id="@+id/bt41"
+        android:text="Firebase DB Demo 1 (Single Value EventListener) "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go41"
+        />
+
+    <Button
+        android:id="@+id/bt42"
+        android:text="Firebase DB Demo 2 (Add Value EventListener) "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go42"
+        />
+
+    <Button
+        android:id="@+id/bt43"
+        android:text="Firebase DB Demo 3 (Add/ Update / Delete "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go43"
+        />
+
+
+    <Button
+        android:id="@+id/bt44"
+        android:text="Firebase DB Demo 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go44"
+        />
+
+    <Button
+        android:id="@+id/bt45"
+        android:text="Firebase DB Demo 5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go45"
+        />
+
+    <Button
+        android:id="@+id/bt46"
+        android:text="Firebase Storage Demo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go46"
+        />
+
+    <Button
+        android:id="@+id/bt47"
+        android:text="Firebase Storage Demo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go47"
+        />
+
+    <Button
+        android:id="@+id/bt48"
+        android:text="Location Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go48"
+        />
+
+    <Button
+        android:id="@+id/bt49"
+        android:text="Maps Activity Demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="go49"
+        />
+
+
+</LinearLayout>
+
+
+</ScrollView>

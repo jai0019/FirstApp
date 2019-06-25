@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "740006442711",
+    "firebase_url": "https://vmmclassroom.firebaseio.com",
+    "project_id": "vmmclassroom",
+    "storage_bucket": "vmmclassroom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740006442711:android:4b27071f992a7381",
+        "android_client_info": {
+          "package_name": "com.example.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740006442711-4h8uim8vlvtbu14hj8e7smf7l2d6erok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firstapp",
+            "certificate_hash": "479bb7ee6a89bb39503a0f00a84ed7bdfd54a176"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO40-9mROKGtcGn01mnoOsWq9RfPldmmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740006442711-dlbleeiqa6190q2lhp6tdcud7oioq3sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
